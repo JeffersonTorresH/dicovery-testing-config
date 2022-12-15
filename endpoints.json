@@ -1,0 +1,50 @@
+[
+  {
+    "id": "20d68448acda36b8a32f68a3dcf3c052",
+    "uri": "/test_featured_snippet_mongo",
+    "httpMethod": "POST",
+    "timeout": "PT30S",
+    "processors": [
+      "aa6c929c-aea9-4ac3-8d81-8620c5c18fd1",
+      "deb424cd-43ab-461d-81d1-9e82fd080698",
+      "6b44c049-1679-4932-a8ef-1e69a7efd2de"
+    ],
+    "continueOnError": false,
+    "fallbacks": null
+  },
+  {
+    "id": "7354b53f3153a867d96c245b4c60b643",
+    "uri": "/test_featured_snippet_elastic",
+    "httpMethod": "POST",
+    "timeout": "PT30S",
+    "processors": [
+      "85ef6fd2-2feb-4318-b20f-4f1e1e29b86f",
+      "deb424cd-43ab-461d-81d1-9e82fd080698",
+      "a6f4e342-28c1-4ab4-b785-d2ea66049228"
+    ],
+    "continueOnError": false,
+    "fallbacks": null
+  },
+  {
+    "id": "2f9d5349e1a56c258357462f4e774a6d",
+    "uri": "/test_mongo_atlas",
+    "httpMethod": "POST",
+    "timeout": "PT30S",
+    "processors": [
+      "aa6c929c-aea9-4ac3-8d81-8620c5c18fd1"
+    ],
+    "continueOnError": false,
+    "fallbacks": null
+  },
+  {
+    "id": "b2a03c3c316ca3cfe1404e3257ee6948",
+    "uri": "/test_elastic",
+    "httpMethod": "POST",
+    "timeout": "PT30S",
+    "processors": [
+      "85ef6fd2-2feb-4318-b20f-4f1e1e29b86f"
+    ],
+    "continueOnError": false,
+    "fallbacks": null
+  }
+]
