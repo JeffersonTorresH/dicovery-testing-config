@@ -1,1 +1,0 @@
-# dicovery-testing-config
